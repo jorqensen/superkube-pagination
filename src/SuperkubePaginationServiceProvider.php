@@ -22,10 +22,10 @@ class SuperkubePaginationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'superkube-pagination');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'superkube-pagination');
 
         $this->publishes([
-            __DIR__ . '/../resources/views' => $this->app->resourcePath('views/vendor/superkube-pagination')
+            __DIR__.'/../resources/views' => $this->app->resourcePath('views/vendor/superkube-pagination')
         ], 'superkube-pagination');
     }
 }
