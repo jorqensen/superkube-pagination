@@ -33,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
 }
 ```
 
-4. If you're not using Laravel's auto package discovery, make sure you manually set the service provider in your `config/app.php`
+3. If you're not using Laravel's auto package discovery, make sure you manually set the service provider in your `config/app.php`
 
 ```php
 <?php
